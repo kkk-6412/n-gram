@@ -52,12 +52,18 @@ The pipeline follows these distinct steps:
 
 ## 🖥️ Usage
 
-Run the script directly in your Python environment or Jupyter Notebook (or Colab):
+Run the notebook in your Jupyter environment:
 
 ```python
-# The script will output raw text samples, token counts, and display 3 charts.
-python analysis_script.py
+# If running from command line
+jupyter notebook hw1.ipynb
 ```
+
+Or directly in Jupyter Notebook/JupyterLab/Colab:
+
+* Open hw1.ipynb
+* Run all cells
+* The notebook will output raw text samples, token counts, and display 3 charts.
 
 ### Customization
 To analyze a different book, simply change the `target_url` variable in the script:
